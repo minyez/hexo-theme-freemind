@@ -176,7 +176,8 @@
   content: "\f003";
 }
 .fa-heart:before {
-  content: "\f004";
+  /*content: "\f004";*/
+  content: "\f121";
 }
 .fa-star:before {
   content: "\f005";
