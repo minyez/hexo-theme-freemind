@@ -1,4 +1,4 @@
-slogan: "喜欢写代码的计算化学狗一只"
+slogan: "一只喜欢写代码的计算化学狗"
 
 menu:
   - title: Archives
@@ -40,6 +40,10 @@ links:
     icon: "fa fa-code-fork"
   - title: "Freemind Repo"
     url: https://github.com/hexojs/hexo
+    icon: "fa fa-code-fork"
+  - title: "My Freemind Repo"
+    intro: "Freemind theme customized by Me"
+    url: https://github.com/PytLab/hexo-theme-freemind
     icon: "fa fa-code-fork"
   
 
