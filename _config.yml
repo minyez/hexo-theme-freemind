@@ -1,4 +1,4 @@
-slogan: "while(true){eat; sleep; code;}"
+slogan: "while(true){eat(); sleep(); code();}"
 
 menu:
   - title: Archives
