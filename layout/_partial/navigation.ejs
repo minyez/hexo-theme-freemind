@@ -16,9 +16,9 @@
           <li>
           <% } %>
             <% if (m.title == "Categories"){ %>
-            <a href="<%- config.root %><%- m.url %>" class="dropdown-toggle" data-toggle="dropdown" title="<%- m.intro %>" style="font-weight: bold">
+            <a href="<%- config.root %><%- m.url %>" class="dropdown-toggle" data-toggle="dropdown" title="<%- m.intro %>" style="font-weight: bold; font-family: Consolas; font-size: 14px">
             <% }else{ %>
-			<a href="<%- config.root %><%- m.url %>" title="<%- m.intro %>" style="font-weight: bold">
+			<a href="<%- config.root %><%- m.url %>" title="<%- m.intro %>" style="font-weight: bold; font-family: Consolas; font-size: 14px">
             <% } %>
 			  <i class="<%- m.icon %>"></i><%- m.title %>
                 <% if (m.title == "Categories"){ %>
