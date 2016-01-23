@@ -1,14 +1,14 @@
 slogan: "while(true){eat(); sleep(); code();}"
 
 menu:
-  - title: Archives
-    url: archives
-    intro: "All the articles."
-    icon: "fa fa-archive"
   - title: Categories
     url: categories
     intro: "All the categories."
     icon: "fa fa-folder"
+  - title: Archives
+    url: archives
+    intro: "All the articles."
+    icon: "fa fa-archive"
   - title: Tags
     url: tags
     intro: "All the tags."

@@ -10,10 +10,31 @@
       <div class="collapse navbar-collapse nav-menu">
 		<ul class="nav navbar-nav">
 		  <% theme.menu.forEach(function(m){ %>
-		  <li>
-			<a href="<%- config.root %><%- m.url %>" title="<%- m.intro %>">
+          <% if (m.title == "Categories"){ %>
+		  <li class="dropdown">
+          <% }else{ %>
+          <li>
+          <% } %>
+            <% if (m.title == "Categories"){ %>
+            <a href="<%- config.root %><%- m.url %>" class="dropdown-toggle" data-toggle="dropdown" title="<%- m.intro %>" style="font-weight: bold">
+            <% }else{ %>
+			<a href="<%- config.root %><%- m.url %>" title="<%- m.intro %>" style="font-weight: bold">
+            <% } %>
 			  <i class="<%- m.icon %>"></i><%- m.title %>
+                <% if (m.title == "Categories"){ %>
+                       <b class="caret"></b>   
+                <% } %>
 			</a>
+            <% if (m.title == "Categories"){ %>
+            <ul class="dropdown-menu">
+              <li class="divider"></li>
+              <li><a href="<%- config.root %><%- m.url %>" style="font-size: 20px; font-family: 'Calibri Light'">All Categories</a><span></span></li>
+              <li class="divider"></li>
+            <% site.categories.sort('length', -1).limit(5).each(function(item){ %>
+              <li><a href="<%- config.root %><%- item.path %>" style="font-size: 15px; font-family: 微软雅黑"><%= item.name %><span></span></a></li>
+            <% }); %>
+            </ul>
+            <% } %>
 		  </li>
 		  <% }) %>
 		</ul>
