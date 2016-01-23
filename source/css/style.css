@@ -86,9 +86,12 @@ body {
 
 .navbar-brand {
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
-  -webkit-transition: all .2s linear;
-     -moz-transition: all .2s linear;
-          transition: all .2s linear;
+  -webkit-transition: all .4s linear;
+     -moz-transition: all .4s linear;
+          transition: all .4s linear;
+          font-weight: bold;
+          font-size: 25px;
+          font-family: "Calibri";
 }
 
 .navbar-brand:hover {
