@@ -1,4 +1,16 @@
-﻿/* =============================================================================
+﻿/*add by PytLab to get transition effect for link*/
+a {
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+
+a:hover {
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+/* =============================================================================
    container
    ========================================================================== */
 
@@ -163,6 +175,9 @@ li i {
   border-radius: 3px;
   text-decoration:none;
   border:1px #bbb;
+  -webkit-transition: all .3s linear;
+     -moz-transition: all .3s linear;
+          transition: all .3s linear;
 }
 .tag_box a span{
   vertical-align:super;
@@ -171,9 +186,9 @@ li i {
 .tag_box a:hover {
   background-color:#397bdd;
   color:#FFF;
-  -webkit-transition: all .2s linear;
-     -moz-transition: all .2s linear;
-          transition: all .2s linear;
+  -webkit-transition: all .3s linear;
+     -moz-transition: all .3s linear;
+          transition: all .3s linear;
 }
 .tag_box a.active {
   background:#57A957;
