@@ -54,7 +54,7 @@
             </a>
             <ul class="dropdown-menu">
               <li class="divider"></li>
-              <li><a href="<%- config.root %><%- m.url %>" style="font-size: 20px; font-family: 'Calibri Light',Arial">All Archives</a><span></span></li>
+              <li><a href="<%- config.root %><%- m.url %>" style="font-size: 20px; font-family: 'Calibri Light',Arial">All Tags</a><span></span></li>
               <li class="divider"></li>
               <% site.tags.sort('length', -1).limit(7).each(function(item){ %>
               <li><a href="<%- config.root %><%- item.path %>" style="font-size: 15px; font-family: 微软雅黑"><%= item.name %><span></span></a></li>

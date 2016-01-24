@@ -19,19 +19,19 @@ menu:
     icon: "fa fa-user"
 
 links:
-  - title: "My Github"
+  - title: "Github-PytLab"
     url: https://github.com/PytLab
     intro: "My Github account."
     icon: "fa fa-github"
-  - title: "My Weibo"
+  - title: "Weibo-PytLab"
     url: http://weibo.com/shaowugui 
     intro: "My Weibo account."
     icon: "fa fa-weibo"
-  - title: "My Email"
+  - title: "Email"
     url: mailto:shaozhengjiang@gmail.com
     intro: "Send Email to me"
     icon: "fa fa-mail-forward"
-  - title: "My StackOverflow"
+  - title: "StackOverflow-PytLab"
     url: http://stackoverflow.com/users/4014840/pytlab
     intro: "My StackOverflow account"
     icon: "fa fa-stack-overflow"
@@ -39,7 +39,7 @@ links:
     url: https://github.com/hexojs/hexo
     icon: "fa fa-code-fork"
   - title: "Freemind Repo"
-    url: https://github.com/hexojs/hexo
+    url: https://github.com/wzpan/hexo-theme-freemind
     icon: "fa fa-code-fork"
   - title: "My Freemind Repo"
     intro: "Freemind theme customized by Me"
