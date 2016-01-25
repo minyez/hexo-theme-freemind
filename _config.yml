@@ -1,16 +1,5 @@
 slogan: "while(true){eat(); sleep(); code();}"
 
-headline:
-  - "Welcome ~ ヾ (o ° ω ° O ) ノ゙"
-  - "Go for it ~ ヽ(•̀ω•́ )ゝ"
-  - "Am i cute ? (○’ω’○) "
-  - "Come on ~ (╭￣3￣)╭"
-  - "Sleepy ... ≡￣﹏￣≡ "
-  - "I'm very shy(/ω＼) ... (/ω・＼) ... (/・ω・＼)"
-  - "HaHaHa .. o(*≧▽≦)ツ┏━┓"
-  - "I'm hungry~ ∑(っ °Д °;)っ "
-  - "( ゜- ゜)つロ Cheers ~"
-
 menu:
   - title: Archives
     url: archives
