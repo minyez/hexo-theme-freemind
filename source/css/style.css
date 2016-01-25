@@ -168,20 +168,21 @@ li i {
   float:left;
 }
 .tag_box a {
-  padding: 4px 8px;
+  padding: 6px 8px 5px 8px;
   margin: 2px;
   background: #e5e5e5;
   color:#555;
   border-radius: 3px;
   text-decoration:none;
   border:1px #bbb;
+  font-size:0.95em;
   -webkit-transition: all .3s linear;
      -moz-transition: all .3s linear;
           transition: all .3s linear;
 }
 .tag_box a span{
   vertical-align:super;
-  font-size:0.8em;
+  font-size:0.01em;
 }
 .tag_box a:hover {
   background-color:#397bdd;
