@@ -1,6 +1,10 @@
 slogan: "while(true){eat(); sleep(); code();}"
 
 menu:
+  - title: Home
+    url: 
+    intro: PytLab's Home
+    icon: "fa fa-home"
   - title: Archives
     url: archives
     intro: "All the articles."
