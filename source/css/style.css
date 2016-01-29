@@ -184,7 +184,7 @@ li i {
 .tag_box a span{
   /*vertical-align:super;*/
   margin-left: 5px;
-  font-size:0.01em;
+  /*font-size:0.01em;*/
 }
 
 .tag_box a:hover {
