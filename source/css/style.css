@@ -160,7 +160,7 @@ li i {
   overflow:hidden;
 }
 .tag_box li {
-  line-height:28px;
+  line-height:36px;
 }
 .tag_box li i {
   opacity:0.9;
@@ -169,22 +169,24 @@ li i {
   float:left;
 }
 .tag_box a {
-  padding: 6px 8px 5px 8px;
+  padding: 6px 8px 8px 8px;
   margin: 2px;
   background: #e5e5e5;
   color:#555;
   border-radius: 3px;
   text-decoration:none;
   border:1px #bbb;
-  font-size:0.95em;
+  font-size:1.0em;
   -webkit-transition: all .3s linear;
      -moz-transition: all .3s linear;
           transition: all .3s linear;
 }
 .tag_box a span{
-  vertical-align:super;
+  /*vertical-align:super;*/
+  margin-left: 5px;
   font-size:0.01em;
 }
+
 .tag_box a:hover {
   background-color:#397bdd;
   color:#FFF;
@@ -192,6 +194,15 @@ li i {
      -moz-transition: all .3s linear;
           transition: all .3s linear;
 }
+
+.tag_box a:hover span {
+  background-color:#FFF;
+  color: #397bdd;
+  -webkit-transition: all .3s linear;
+     -moz-transition: all .3s linear;
+          transition: all .3s linear;
+}
+
 .tag_box a.active {
   background:#57A957;
   border:1px solid #4C964D;

@@ -17,7 +17,7 @@
         <div class="widget">
 			<ul class="tag_box inline list-unstyled">
 			<% site.categories.sort('name').each(function(item){ %>
-				<li><a href="#<%= item.name %>"><%= item.name %><span><%= item.posts.length %></span></a></li>
+				<li><a href="#<%= item.name %>"><%= item.name %><span class="badge"><%= item.posts.length %></span></a></li>
 			<% }); %>
 			</ul>
 		</div>
