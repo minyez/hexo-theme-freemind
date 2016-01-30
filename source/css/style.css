@@ -667,6 +667,33 @@ td {
     padding: 1em;
     color: #000;
     font-family: "Calibri", "Arial", "Microsoft YaHei", "黑体";
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.line-content-box:hover{
+    background: #f8f8f8;
+    -webkit-box-shadow: 0 0px 10px #636363;
+    -moz-box-shadow: 0 0px 10px #636363;
+    box-shadow: 0 0px 10px #636363;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.line-content-box:hover::before{
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: -14px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid transparent;
+    -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
 }
 
 /* 用来画内容框左边的小箭头*/
