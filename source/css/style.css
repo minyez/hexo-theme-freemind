@@ -140,7 +140,7 @@ li i {
 }
 
 .listing-item {
-  line-height: 30px;
+  line-height: 32px;
 }
 
 /* =============================================================================
@@ -161,6 +161,7 @@ li i {
 }
 .tag_box li {
   line-height:36px;
+  margin:1px;
 }
 .tag_box li i {
   opacity:0.9;
@@ -169,7 +170,7 @@ li i {
   float:left;
 }
 .tag_box a {
-  padding: 6px 8px 8px 8px;
+  padding: 8px;
   margin: 2px;
   background: #e5e5e5;
   color:#555;
@@ -614,4 +615,77 @@ td {
 
 .jiathis_counter.jiathis_bubble_style {
     width: 60px;
+}
+
+ /*时间轴大容器*/
+.line-warp{
+      position: relative;
+      width: 80%;
+      min-width: 200px;
+      margin: 0 auto;
+      margin-top: 50px;
+}
+/*timeline*/
+.line-warp:before{
+    position: absolute;
+    content: '';
+    left:21px;
+    width: 2px;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background: #adadad;
+
+}
+    /* 每一行*/
+.line-item{
+
+    position: relative;
+    margin-top: 30px;
+}
+   /* 左边的图标 容器*/
+.line-icon-warp{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+/*   通过修改font-size来控制图标大小*/
+.line-icon-warp span:first-child{
+    font-size: 22px;
+}
+.line-icon-warp .badge{
+    font-size: 13px;
+}
+ /*右边 内容*/
+.line-content-box{
+    position: relative;
+    margin-left: 155px;
+    background: #e5e5e5;
+    border-radius: .25em;
+    padding: 1em;
+    color: #000;
+    font-family: "Calibri", "Arial", "Microsoft YaHei", "黑体";
+}
+
+/* 用来画内容框左边的小箭头*/
+.line-content-box:before{
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: -14px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid #e5e5e5;
+
+}
+
+.breakline{
+    padding: 0 30px 0;
+    margin: 40px 0;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #ddd;
 }
