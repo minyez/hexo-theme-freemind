@@ -89,8 +89,8 @@ body {
 }
 
 .mypage {
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  border-bottom: 0px solid #ccc;
 }
 
 /* =============================================================================
@@ -161,7 +161,7 @@ li i {
 }
 .tag_box li {
   line-height:36px;
-  margin:1px;
+  margin:0.1em;
 }
 .tag_box li i {
   opacity:0.9;
@@ -617,6 +617,7 @@ td {
     width: 60px;
 }
 
+/*Time line*/
  /*时间轴大容器*/
 .line-warp{
       position: relative;
@@ -624,6 +625,7 @@ td {
       min-width: 200px;
       margin: 0 auto;
       margin-top: 50px;
+      margin-bottom: 30px;
 }
 /*timeline*/
 .line-warp:before{
@@ -672,29 +674,25 @@ td {
     transition: all .2s linear;
 }
 
+/*
 .line-content-box:hover{
     background: #f8f8f8;
-    -webkit-box-shadow: 0 0px 10px #636363;
-    -moz-box-shadow: 0 0px 10px #636363;
-    box-shadow: 0 0px 10px #636363;
+    -webkit-box-shadow: 0 0px 8px #636363;
+    -moz-box-shadow: 0 0px 8px #636363;
+    box-shadow: 0 0px 8px #636363;
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
     transition: all .2s linear;
 }
 
 .line-content-box:hover::before{
-    content: '';
-    position: absolute;
-    top: 14px;
-    left: -14px;
-    height: 0;
-    width: 0;
     border: 7px solid transparent;
     border-right: 7px solid transparent;
     -webkit-transition: all .2s linear;
      -moz-transition: all .2s linear;
           transition: all .2s linear;
 }
+*/
 
 /* 用来画内容框左边的小箭头*/
 .line-content-box:before{
@@ -716,4 +714,13 @@ td {
     text-align: center;
     letter-spacing: -1px;
     color: #ddd;
+}
+
+.timeline-header{
+    text-align: center;
+}
+
+.timeline-header span{
+    padding: 2px 10px 2px 6px;
+    font-size: 12px;
 }

@@ -20,11 +20,13 @@
 	  <%- item.content %>	  
 	</div>
 
+    <% if (post) { %>
 	<div>
   	<center>
 	<%- partial('post/pagination', {page: item}) %>
     </center>
 	</div>
+    <% } %>
 	
     <!-- bdshare -->
     <% if (post) { %>
@@ -33,7 +35,7 @@
     <% } %>
 
 	<!-- comment -->
-	<%- partial('post/comment', {page: item}) %>
+    <%- partial('post/comment', {page: item}) %>
 	</div> <!-- col-md-9/col-md-12 -->
 		
 	<% if (post) { %>
