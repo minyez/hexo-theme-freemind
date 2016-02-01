@@ -624,6 +624,7 @@ td {
 .about-info-content{
     /*float: left;*/
     padding-left: 25px;
+    font-family: "Calibri", "Arial", "Microsoft YaHei", "黑体";
 }
 
 /*Time line*/
