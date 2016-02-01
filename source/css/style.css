@@ -617,15 +617,24 @@ td {
     width: 60px;
 }
 
+.about-info-icon{
+    float: left;
+}
+
+.about-info-content{
+    /*float: left;*/
+    padding-left: 25px;
+}
+
 /*Time line*/
  /*时间轴大容器*/
 .line-warp{
-      position: relative;
-      width: 80%;
-      min-width: 200px;
-      margin: 0 auto;
-      margin-top: 50px;
-      margin-bottom: 30px;
+    position: relative;
+    width: 80%;
+    min-width: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 /*timeline*/
 .line-warp:before{
