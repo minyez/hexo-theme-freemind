@@ -65,10 +65,10 @@ duoshuo_shortname: pytlab
 
 # Analytics
 google_analytics:
-  enable: false
-  siteid:
-baidu_tongji:
   enable: true
+  siteid: UA-73223373-1
+baidu_tongji:
+  enable: false
   siteid: pytlab.github.io
 
 # search
