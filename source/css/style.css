@@ -186,6 +186,9 @@ li i {
   /*vertical-align:super;*/
   margin-left: 5px;
   /*font-size:0.01em;*/
+  -webkit-transition: all .3s linear;
+     -moz-transition: all .3s linear;
+          transition: all .3s linear;
 }
 
 .tag_box a:hover {
@@ -686,26 +689,6 @@ td {
     -moz-transition: all .2s linear;
     transition: all .2s linear;
 }
-
-/*
-.line-content-box:hover{
-    background: #f8f8f8;
-    -webkit-box-shadow: 0 0px 8px #636363;
-    -moz-box-shadow: 0 0px 8px #636363;
-    box-shadow: 0 0px 8px #636363;
-    -webkit-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    transition: all .2s linear;
-}
-
-.line-content-box:hover::before{
-    border: 7px solid transparent;
-    border-right: 7px solid transparent;
-    -webkit-transition: all .2s linear;
-     -moz-transition: all .2s linear;
-          transition: all .2s linear;
-}
-*/
 
 /* 用来画内容框左边的小箭头*/
 .line-content-box:before{
