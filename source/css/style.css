@@ -633,6 +633,9 @@ td {
     font-family: "Calibri", "Arial", "Microsoft YaHei", "黑体";
 }
 
+.about-info-content button{
+    margin-bottom: 3px;
+}
 /*Time line*/
  /*时间轴大容器*/
 .line-warp{
