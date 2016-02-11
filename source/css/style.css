@@ -635,6 +635,15 @@ td {
 
 .about-info-content button{
     margin-bottom: 3px;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.about-info-content button:hover{
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
 }
 /*Time line*/
  /*时间轴大容器*/
