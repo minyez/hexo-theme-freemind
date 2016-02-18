@@ -1,4 +1,4 @@
-slogan: "while(true){eat(); sleep(); code();}"
+slogan: The output is the best input.
 
 menu:
   - title: Home
@@ -31,14 +31,14 @@ links:
     url: http://weibo.com/shaowugui 
     intro: "My Weibo account."
     icon: "fa fa-weibo"
-  - title: "Email"
-    url: mailto:shaozhengjiang@gmail.com
-    intro: "Send Email to me"
-    icon: "fa fa-mail-forward"
   - title: "StackOverflow-PytLab"
     url: http://stackoverflow.com/users/4014840/pytlab
     intro: "My StackOverflow account"
     icon: "fa fa-stack-overflow"
+  - title: "Email"
+    url: mailto:shaozhengjiang@gmail.com
+    intro: "Send Email to me"
+    icon: "fa fa-mail-forward"
   - title: "Hexo Repo"
     url: https://github.com/hexojs/hexo
     icon: "fa fa-code-fork"
