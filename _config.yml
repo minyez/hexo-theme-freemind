@@ -31,6 +31,10 @@ links:
     url: http://weibo.com/shaowugui 
     intro: "My Weibo account."
     icon: "fa fa-weibo"
+  - title: "Zhihu-PytLab"
+    intro: "My Zhihu"
+    url: https://www.zhihu.com/people/shao-zheng-jiang
+    icon: "fa fa-link"
   - title: "StackOverflow-PytLab"
     url: http://stackoverflow.com/users/4014840/pytlab
     intro: "My StackOverflow account"
