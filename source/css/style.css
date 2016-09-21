@@ -700,6 +700,8 @@ td {
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
     transition: all .2s linear;
+    display: table;
+    width: 80%;
 }
 
 /* 用来画内容框左边的小箭头*/
