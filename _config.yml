@@ -62,10 +62,10 @@ widgets:
 - tagcloud
 - links
 
-rss: 
+rss: true
 fancybox: true
 favicon: favicon.png
-duoshuo_shortname: pytlab
+#duoshuo_shortname: pytlab
 
 # Analytics
 google_analytics:
