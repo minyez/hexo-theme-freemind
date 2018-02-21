@@ -1,9 +1,9 @@
-slogan: The best input is OUTPUT.
+slogan: Far the most important thing is to settle accounts with myself.
 
 menu:
   - title: Home
     url: 
-    intro: PytLab's Home
+    intro: Shigaro's Home
     icon: "fa fa-bank"
   - title: Archives
     url: archives
@@ -23,35 +23,35 @@ menu:
     icon: "fa fa-user"
 
 links:
-  - title: "Github-PytLab"
-    url: https://github.com/PytLab
+  - title: "Github-minyez"
+    url: https://github.com/minyez
     intro: "My Github account."
-    icon: "fa fa-github"
-  - title: "Weibo-PytLab"
-    url: http://weibo.com/shaowugui 
-    intro: "My Weibo account."
-    icon: "fa fa-weibo"
-  - title: "Zhihu-PytLab"
-    intro: "My Zhihu"
-    url: https://www.zhihu.com/people/shao-zheng-jiang
-    icon: "fa fa-link"
-  - title: "StackOverflow-PytLab"
-    url: http://stackoverflow.com/users/4014840/pytlab
-    intro: "My StackOverflow account"
-    icon: "fa fa-stack-overflow"
+    icon: "fa fa-github-square"
+    # - title: "Weibo-PytLab"
+    # - url: http://weibo.com/shaowugui 
+    # - intro: "My Weibo account."
+    # - icon: "fa fa-weibo"
+    # - title: "Zhihu-Minye Zhang"
+    # - intro: "My Zhihu"
+    # - url: https://www.zhihu.com/people/Minye-Zhang
+    # - icon: "fa fa-link"
+    #  - title: "StackOverflow-PytLab"
+    # url: http://stackoverflow.com/users/4014840/pytlab
+    # intro: "My StackOverflow account"
+    # icon: "fa fa-stack-overflow"
+  - title: "DouBan-Sadlessness"
+    url: https://www.douban.com/people/shigaro/
+    intro: "My DouBan account"
+    icon: "fa fa-book" 
   - title: "Email"
-    url: mailto:shaozhengjiang@gmail.com
+    url: mailto:zmysmile0929@163.com
     intro: "Send Email to me"
     icon: "fa fa-mail-forward"
   - title: "Hexo Repo"
     url: https://github.com/hexojs/hexo
     icon: "fa fa-code-fork"
-  - title: "Freemind Repo"
+  - title: "Original Freemind Repo"
     url: https://github.com/wzpan/hexo-theme-freemind
-    icon: "fa fa-code-fork"
-  - title: "My Freemind Repo"
-    intro: "Freemind theme customized by Me"
-    url: https://github.com/PytLab/hexo-theme-freemind
     icon: "fa fa-code-fork"
   
 
@@ -64,16 +64,15 @@ widgets:
 
 rss: true
 fancybox: true
-favicon: favicon.png
-#duoshuo_shortname: pytlab
+favicon: img/douban_16x16.png #favicon.jpg
 
 # Analytics
 google_analytics:
-  enable: true
+  enable: false
   siteid: UA-73223373-1
 baidu_tongji:
   enable: false
-  siteid: pytlab.github.io
+  siteid: shigaro.org
 
 # search
 # swiftype_key: ZP2ZSuHgipSZfRyU8uTR
