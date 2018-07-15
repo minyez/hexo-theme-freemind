@@ -64,12 +64,15 @@ widgets:
 
 rss: true
 fancybox: true
-favicon: img/douban_16x16.png #favicon.jpg
+#favicon: img/douban_16x16.png #favicon.jpg
+#favicon: /images/favicon/favicon.ico
+favicon: true
+# will use source/images/favicon/icon.png
 
 # Analytics
 google_analytics:
-  enable: false
-  siteid: UA-73223373-1
+  enable: true
+  siteid: UA-111612868-1
 baidu_tongji:
   enable: false
   siteid: shigaro.org
@@ -78,5 +81,5 @@ baidu_tongji:
 # swiftype_key: ZP2ZSuHgipSZfRyU8uTR
 
 # share widgets
-bdshare: true
+bdshare: false
 jiathis: false

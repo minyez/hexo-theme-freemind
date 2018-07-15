@@ -93,6 +93,11 @@ body {
   border-bottom: 0px solid #ccc;
 }
 
+/*added by Shigaro*/
+p {
+  text-align: justify;
+}
+
 /* =============================================================================
    navbar
    ========================================================================== */
@@ -325,10 +330,12 @@ blockquote p, blockquote ol, blockquote ul, blockquote li, .slogan{
    ========================================================================== */
 
 img, video {
-  max-width: 97.5%;
+  max-width: 60%;
+  max-height: 60%;
   margin: 15px auto;
   display: block;
   height: auto;
+  width: auto;
 }
 
 /* =============================================================================
@@ -405,17 +412,20 @@ h1,h2,h3,h4,h5,h6{
 
 h2{
   margin: 0.83em 0;
-  color: green;
+  color: #104E8B;
+/*  color: green; */
   padding-top: 40px;
   margin-top: -25px;
 }
 
 h3 {
-  color: #9C4C17;
+/*  color: #9C4C17; */
+  color: #1E90FF;
 }
 
 h4 {
-  color: #B94A48;
+/*  color: #B94A48; */
+  color: #CC0033;
 }
 
 .page-header {

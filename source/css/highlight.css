@@ -25,10 +25,11 @@ code {
   padding: 0 5px;
   margin: 0 2px;
   font-size: 90%;
-  text-shadow: 0 1px #fff;  
+  /*text-shadow: 0 1px #fff; */
   word-break: break-all;
   word-wrap: break-word;
   white-space: normal;
+  color: #458B00;
 }
 
 .highlight .gutter pre{
