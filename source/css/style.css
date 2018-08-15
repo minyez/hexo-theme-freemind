@@ -589,9 +589,17 @@ table {
   vertical-align: middle;
 }
 
+/* 居中三线表 */
+:not(figure)>table {
+  border-top: 2px solid #4088b8;
+  border-bottom: 2px solid #4088b8;
+  margin: 1.5em auto 1.5em auto;
+}
+
+
 th {
   padding: 12px 10px 12px 10px;
-  border-bottom: 1px dashed #4088b8;
+  border-bottom: 2px solid #4088b8;
 }
 
 td {
@@ -599,6 +607,11 @@ td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
+}
+
+/* 非代码块table元素, 悬停表格主体行时灰色高量 */
+:not(figure)>table>tbody>tr:hover {
+  background-color: #D9D9D9;
 }
 
 /**
