@@ -47,12 +47,16 @@ links:
     url: mailto:zmysmile0929@163.com
     intro: "Send Email to me"
     icon: "fa fa-mail-forward"
-  - title: "Hexo Repo"
-    url: https://github.com/hexojs/hexo
-    icon: "fa fa-code-fork"
-  - title: "Original Freemind Repo"
-    url: https://github.com/wzpan/hexo-theme-freemind
-    icon: "fa fa-code-fork"
+  - title: "Site source"
+    url: https://github.com/minyez/minyez.github.io/tree/hexo
+    intro: "Source codes of this site"
+    icon: "fa fa-code"
+    #  - title: "Hexo Repo"
+    #    url: https://github.com/hexojs/hexo
+    #    icon: "fa fa-code-fork"
+    #  - title: "Original Freemind Repo"
+    #    url: https://github.com/wzpan/hexo-theme-freemind
+    #    icon: "fa fa-code-fork"
   
 
 widgets:
