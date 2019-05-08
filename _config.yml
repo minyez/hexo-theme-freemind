@@ -61,7 +61,7 @@ links:
 
 widgets:
 - search
-- recent_posts  
+#- recent_posts  
 - category
 - tagcloud
 - links
