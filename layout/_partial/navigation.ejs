@@ -31,20 +31,10 @@
 
           <% }else if (m.title == "Archives"){ %>
           <!-- Archives -->
-          <li class="dropdown">
-            <a href="<%- config.root %><%- m.url %>" class="dropdown-toggle" data-toggle="dropdown" title="<%- m.intro %>" style="font-weight: normal; font-family: Calibri,Arial; font-size:     18px">
+          <li>
+            <a href="<%- config.root %><%- m.url %>" title="<%- m.intro %>" style="font-weight: normal; font-family: Calibri,Arial; font-size:     18px">
             <i class="<%- m.icon %>"></i><%- m.title %>
-            <b class="caret"></b>   
             </a>
-            <ul class="dropdown-menu">
-              <li class="divider"></li>
-              <li><a href="<%- config.root %><%- m.url %>" style="font-size: 20px; font-family: 'Calibri Light',Arial">All Archives</a><span></span></li>
-              <li class="divider"></li>
-              <% site.posts.sort('date', -1).limit(7).each(function(item){ %>
-              <li><a href="<%- config.root %><%- item.path %>" style="font-size: 15px; font-family: 微软雅黑"><%=truncate(item.title, 10) %><span></span></a></li>
-              <% }); %>
-              <li class="divider"></li>
-            </ul>
           </li>
 
           <% }else if (m.title == "Tags"){ %>
