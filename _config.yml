@@ -80,6 +80,12 @@ google_analytics:
 baidu_tongji:
   enable: false
   siteid: shigaro.org
+busuanzi:
+# number of page views from busuanzi
+  pageview: false
+# number of total visitors from busuanzi
+  visitor: true
+
 
 # search
 # swiftype_key: ZP2ZSuHgipSZfRyU8uTR

@@ -1,9 +1,12 @@
 <p>
   <% if (config.author){ %>
-  &copy; copyright <%= new Date().getFullYear() %> by <a href="<%= config.url %>"> <%= config.author %> </a>
+  &copy; <%= new Date().getFullYear() %> by <a href="<%= config.url %>"> <%= config.author %> </a>
   <% } else { %>
-  &copy; copyright <%= new Date().getFullYear() %> by <%= config.title %>
+  &copy; <%= new Date().getFullYear() %> by <%= config.title %>
   <% } %>
-      &nbsp; <a href="http://github.com/minyez/hexo-theme-freemind/">Theme</a> by <a href="http://minyez.github.io/">minyez</a> based on two freemind themes by <a href="https://github.com/wzpan/hexo-theme-freemind/">wzpan</a> and <a href="https://github.com/PytLab/hexo-theme-freemind/">PytLab</a> 
-      &nbsp; Powered by <a href="https://github.com/hexojs/hexo">Hexo</a>
+     | <a href="http://github.com/minyez/hexo-theme-freemind/">Theme</a> by <a href="http://minyez.github.io/">minyez</a> based on two freemind themes by <a href="https://github.com/wzpan/hexo-theme-freemind/">wzpan</a> and <a href="https://github.com/PytLab/hexo-theme-freemind/">PytLab</a> 
+     | Powered by <a href="https://github.com/hexojs/hexo">Hexo</a>
+  <% if (theme.busuanzi.visitor) { %>
+     | <span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span> visitors</span>
+  <% } %>
 </p>

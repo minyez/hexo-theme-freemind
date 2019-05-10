@@ -31,13 +31,15 @@
 <% } %>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- added 2018-07-12 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111612868-1"></script>
+<!--    added 2018-07-12 -->
+<!-- modified 2019-05-10 -->
+<% if (theme.google_analytics.enable){ %>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<%= theme.google_analytics.siteid %>"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-111612868-1');
+  gtag('config', '<%= theme.google_analytics.siteid %>');
 </script>
-
+<% } %>
