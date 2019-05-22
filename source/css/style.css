@@ -40,10 +40,22 @@ body {
   position: relative;
   padding-top: 40px;
   background-color: #fff;
-  background-image: url(../img/grid-18px-masked.png);
+  /*background-image: url(../img/grid-18px-masked.png);*/
   background-repeat: repeat-x;
   background-position: 0 40px;
   padding-bottom: 70px;
+}
+
+/* fixed image background by minyez*/
+body.body-img-background {
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position:50% 50%;
+  background-size: cover; 
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
 }
 
 .content {
@@ -126,7 +138,7 @@ p {
   -webkit-transition: all .4s linear;
      -moz-transition: all .4s linear;
           transition: all .4s linear;
-  background-image: url(/assets/images/logo/logo_249x110.png);
+  /*background-image: url(/assets/images/logo/logo_249x110.png);*/
   background-size: cover;
   -moz-background-size: cover;
   width:113px;
@@ -617,13 +629,12 @@ table {
   vertical-align: middle;
 }
 
-/* 居中三线表 */
+/* 居中三线表 by minyez */
 :not(figure)>table {
   border-top: 2px solid #4088b8;
   border-bottom: 2px solid #4088b8;
   margin: 1.5em auto 1.5em auto;
 }
-
 
 th {
   padding: 12px 10px 12px 10px;
@@ -641,6 +652,7 @@ td {
 :not(figure)>table>tbody>tr:hover {
   background-color: #D9D9D9;
 }
+/* end of 三线表 */
 
 /**
  * 
