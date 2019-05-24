@@ -72,7 +72,7 @@ fancybox: true
 #favicon: /images/favicon/favicon.ico
 favicon: true
 # will use source/images/favicon/icon.png
-background: 
+background:
 
 # Analytics
 google_analytics:

@@ -48,6 +48,7 @@ body {
 
 /* fixed image background by minyez*/
 body.body-img-background {
+  pointer-events: none;
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-position:50% 50%;
@@ -368,6 +369,11 @@ img, video, figcaption {
   display: block;
   height: auto;
   width: auto;
+}
+
+/* protect by disabling all events */
+img {
+  pointer-events: none;
 }
 
 figcaption {
