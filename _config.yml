@@ -86,7 +86,10 @@ busuanzi:
   pageview: false
 # number of total visitors from busuanzi
   visitor: true
-
+# use hexo-wordcount to count total words
+wordcount:
+  site: true
+  post: true
 
 # search
 # swiftype_key: ZP2ZSuHgipSZfRyU8uTR

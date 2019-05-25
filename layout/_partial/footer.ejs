@@ -4,9 +4,12 @@
   <% } else { %>
   &copy; <%= new Date().getFullYear() %> by <%= config.title %>
   <% } %>
-     | <a href="http://github.com/minyez/hexo-theme-freemind/">Theme</a> based on two Freemind themes by <a href="https://github.com/wzpan/hexo-theme-freemind/">wzpan</a> and <a href="https://github.com/PytLab/hexo-theme-freemind/">PytLab</a> 
-     | Powered by <a href="https://github.com/hexojs/hexo">Hexo</a>
+    | <a href="http://github.com/minyez/hexo-theme-freemind/">Theme</a> based on two Freemind themes by <a href="https://github.com/wzpan/hexo-theme-freemind/">wzpan</a> and <a href="https://github.com/PytLab/hexo-theme-freemind/">PytLab</a> 
+    | Powered by <a href="https://github.com/hexojs/hexo">Hexo</a>
   <% if (theme.busuanzi.visitor) { %>
-     <span id="busuanzi_container_site_uv">| <span id="busuanzi_value_site_uv"></span> visitors</span>
+    <span id="busuanzi_container_site_uv">| <span id="busuanzi_value_site_uv"></span> visitors</span>
+  <% } %>
+  <% if (theme.wordcount.site) { %>
+	| <span class="post-count"><%= totalcount(site) %></span> words
   <% } %>
 </p>

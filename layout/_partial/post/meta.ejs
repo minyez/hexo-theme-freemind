@@ -18,6 +18,14 @@
 	</div>
 	<% } %>
 
+	<!-- post word count -->
+	<% if (theme.wordcount.post) { %>
+	<div class="meta-widget">
+	<i class="fa fa-tachometer"></i>
+	<span class="post-count"><%= wordcount(item.content) %></span> words
+	</div>
+	<% } %>
+
 	<!-- categories -->
     <% if (item.categories  && item.categories.length ) { %>
 	<div class="meta-widget">
