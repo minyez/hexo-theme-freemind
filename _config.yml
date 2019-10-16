@@ -51,6 +51,10 @@ links:
     url: https://github.com/minyez/minyez.github.io/tree/hexo
     intro: "Source codes of this site"
     icon: "fa fa-code"
+  - title: " RSS"
+    url: atom.xml
+    intro: "atom rss"
+    icon: "fa fa-rss"
     #  - title: "Hexo Repo"
     #    url: https://github.com/hexojs/hexo
     #    icon: "fa fa-code-fork"
@@ -66,7 +70,7 @@ widgets:
 - tagcloud
 - links
 
-rss: true
+#rss: atom.xml
 fancybox: true
 #favicon: img/douban_16x16.png #favicon.jpg
 #favicon: /images/favicon/favicon.ico
