@@ -6,6 +6,14 @@
 	<i class="fa fa-clock-o"></i>
 	<%= item.date.format(config.date_format) %> 
 	</div>
+	<% if (item.updateDate) { %>
+		<% if (date(item.date) != date(item.updateDate)) { %>
+    	<div class="meta-widget">
+    	<i class="fa fa-pencil"></i>
+    	<%= item.updateDate.format(config.date_format) %> 
+    	</div>
+    	<% } %>
+    <% } %>
 	<% } %>
 
 	<!-- page view by busuanzi -->
