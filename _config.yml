@@ -1,4 +1,4 @@
-slogan: Far the most important thing is to settle accounts with myself.
+slogan: 朝日が昇る　私は旅する
 
 menu:
   - title: Home
@@ -87,7 +87,7 @@ baidu_tongji:
   siteid: shigaro.org
 busuanzi:
 # number of page views from busuanzi
-  pageview: false
+  pageview: true
 # number of total visitors from busuanzi
   visitor: true
 # use hexo-wordcount to count total words

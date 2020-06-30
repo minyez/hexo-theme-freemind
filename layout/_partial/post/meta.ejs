@@ -4,13 +4,13 @@
 	<% if (item.date) { %>
 	<div class="meta-widget">
 	<i class="fa fa-clock-o"></i>
-	<%= item.date.format(config.date_format) %> 
+	<%= item.date.format(config.date_format) %> created
 	</div>
-	<% if (item.updateDate) { %>
-		<% if (date(item.date) != date(item.updateDate)) { %>
+	<% if (item.updated) { %>
+		<% if (date(item.date) != date(item.updated)) { %>
     	<div class="meta-widget">
     	<i class="fa fa-pencil"></i>
-    	<%= item.updateDate.format(config.date_format) %> 
+    	<%= item.updated.format(config.date_format) %> last modified
     	</div>
     	<% } %>
     <% } %>
