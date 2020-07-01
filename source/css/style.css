@@ -304,7 +304,7 @@ em.search-keyword {
 
 a{color:#1863a1}
 a:focus{color:#0181eb}
-a:hover{color:#0181eb}
+/*a:hover{color:#0181eb}*/
 a:active{color:#01579f}
 
 a.label-anchor {
