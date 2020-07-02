@@ -14,5 +14,16 @@
 		<%- item.content %>
 	<% } %>
 	</div>
-  <a type="button" href="<%- config.root %><%- item.path %>#more" class="btn btn-default more"><%= __('read_more') %></a>
+  <!-- tags -->
+  <span style="font-size: 90%;" >
+  <%
+  var tags = [];
+  item.tags.forEach(function(tag){
+    tags.push('<a style="color: #bbb" href="' + config.root + tag.path + '">' + '#' + tag.name + '</a>');
+  });
+  %>
+  <%- tags.join('&nbsp&nbsp') %>
+  </span>
+  <!-- read more button -->
+  <a type="button" href="<%- config.root %><%- item.path %>#more" class="pull-right btn btn-default more"><%= __('read_more') %></a>
 </div>
