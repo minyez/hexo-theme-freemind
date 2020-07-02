@@ -20,7 +20,7 @@ a:hover {
 }
 
 .container-narrow > footer {
-  margin-top: 20px;
+  margin-top: 5px;
   text-align: center;
 }
 .container-narrow > footer p {
@@ -43,7 +43,7 @@ body {
   /*background-image: url(../img/grid-18px-masked.png);*/
   background-repeat: repeat-x;
   background-position: 0 40px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 /* fixed image background by minyez*/
@@ -643,12 +643,12 @@ table {
 }
 
 th {
-  padding: 12px 10px 12px 10px;
+  padding: 5px 8px;
   border-bottom: 2px solid #4088b8;
 }
 
 td {
-  padding: 7px 10px 7px 10px;
+  padding: 5px 10px;
   text-align: left;
   font-weight: normal;
   vertical-align: middle;

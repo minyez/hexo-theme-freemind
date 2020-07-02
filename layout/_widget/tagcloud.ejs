@@ -1,11 +1,15 @@
+<% var max_tags = 6; %>
+<% if (theme.tagcloud.max_tags > max_tags) { %>
+<%   max_tags = theme.tagcloud.max_tags; %>
+<% } %>
 <% if (site.tags.length){ %>
 	<div class="widget">
 		<h4><%= __('tagcloud') %></h4>
 		<ul class="tag_box inline list-unstyled">		
-		<% site.tags.random().limit(30).each(function(item){ %>
+		<% site.tags.random().limit(max_tags).each(function(item){ %>
 			<li><a href="<%- config.root %><%- item.path %>"><%= item.name %><span class="badge"><%= item.posts.length %></span></a></li>
 		<% }); %>
-		<% if (site.tags.length > 30) { %>
+		<% if (site.tags.length > max_tags) { %>
 		   <li><a href="/tags">...<span class="badge"><%= site.tags.length %></span></a></li>
 		<% } %> 
 		</ul>

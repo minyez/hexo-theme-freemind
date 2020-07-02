@@ -9,14 +9,14 @@ menu:
     url: archives
     intro: "All the articles."
     icon: "fa fa-archive"
-  - title: Categories
-    url: categories
-    intro: "All the categories."
-    icon: "fa fa-folder"
   - title: Tags
     url: tags
     intro: "All the tags."
     icon: "fa fa-tags"
+  - title: Categories
+    url: categories
+    intro: "All the categories."
+    icon: "fa fa-folder"
   - title: About
     url: about
     intro: "About me."
@@ -65,10 +65,13 @@ links:
 
 widgets:
 - search
-#- recent_posts  
+# - recent_posts  
 - category
 - tagcloud
 - links
+
+tagcloud:
+  max_tags: 16
 
 #rss: atom.xml
 fancybox: true
@@ -94,7 +97,6 @@ busuanzi:
 wordcount:
   site: true
   post: true
-
 # search
 # swiftype_key: ZP2ZSuHgipSZfRyU8uTR
 
