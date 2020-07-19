@@ -14,6 +14,17 @@
 		<%- item.content %>
 	<% } %>
 	</div>
+  <!-- categories -->
+  <span style="font-size: 90%;" >
+  <%
+  var cats = [];
+  item.categories.forEach(function(cat){
+    cats.push('<a style="color: #bbb" href="' + config.root + cat.path + '">' + '<i class="fa fa-folder"></i> ' + cat.name + '</a>');
+  });
+  %>
+  <%- cats.join('&nbsp&nbsp') %>
+  </span>
+  &nbsp
   <!-- tags -->
   <span style="font-size: 90%;" >
   <%
