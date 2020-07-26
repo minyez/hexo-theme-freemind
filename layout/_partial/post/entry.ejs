@@ -15,22 +15,22 @@
 	<% } %>
 	</div>
   <!-- categories -->
-  <span style="font-size: 90%;" >
+  <span style="font-size:90%">
   <%
   var cats = [];
   item.categories.forEach(function(cat){
-    cats.push('<a style="color: #bbb" href="' + config.root + cat.path + '">' + '<i class="fa fa-folder"></i> ' + cat.name + '</a>');
+    cats.push('<i style="color:#bbb" class="fa fa-folder"></i> ' + '<a style="color:#bbb" href="' + config.root + cat.path + '">' + cat.name + '</a>');
   });
   %>
   <%- cats.join('&nbsp&nbsp') %>
   </span>
   &nbsp
   <!-- tags -->
-  <span style="font-size: 90%;" >
+  <span style="font-size:90%" >
   <%
   var tags = [];
   item.tags.forEach(function(tag){
-    tags.push('<a style="color: #bbb" href="' + config.root + tag.path + '">' + '#' + tag.name + '</a>');
+    tags.push('<a style="color:#bbb" href="' + config.root + tag.path + '">' + '#' + tag.name + '</a>');
   });
   %>
   <%- tags.join('&nbsp&nbsp') %>
