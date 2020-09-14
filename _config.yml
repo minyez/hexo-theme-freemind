@@ -39,9 +39,13 @@ links:
     # url: http://stackoverflow.com/users/4014840/pytlab
     # intro: "My StackOverflow account"
     # icon: "fa fa-stack-overflow"
-  - title: "DouBan-Shigaro"
-    url: https://www.douban.com/people/shigaro/
+  - title: "DouBan - Shigaro"
+    url: https://www.douban.com/people/shigaro
     intro: "My DouBan account"
+    icon: "fa fa-book" 
+  - title: "読書メーター - minyez"
+    url: https://bookmeter.com/users/1169010
+    intro: "My Bookmeter account"
     icon: "fa fa-book" 
   - title: "Email"
     url: mailto:zmysmile0929@163.com
