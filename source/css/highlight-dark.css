@@ -12,7 +12,7 @@ pre, .highlight, .gist {
   -moz-border-radius: 4px;
   border-radius: 4px;  
   border-style: solid;
-  border-width: 1px 1px;
+  border-width: 1px 0;
   line-height: 20px;
 }
 
@@ -141,9 +141,9 @@ pre code {
 }
 
 pre, .highlight, .gist {
-  background: #FAFAFA !important;
-  border-color: #ccc;
-  color: #333;  
+  background: #333 !important;
+  border-color: #ddd;
+  color: #ccc;  
 }
 
 pre .comment,
@@ -183,7 +183,7 @@ pre .inheritance,
 pre .header,
 pre .ruby .symbol,
 pre .xml .cdata {
-  color: #4BB923;
+  color: #9c9;
 }
 pre .css .hexcolor {
   color: #6cc;
@@ -201,15 +201,8 @@ pre .coffeescript .title {
 .keyword,
 .lisp .name,
 pre .javascript .function {
-  color: #C373D2;
+  color: #c9c;
 }
-.bash .meta,
-.shell .meta, {
+.bash .meta {
   color: #4D98CA;
-}
-
-.plain,
-.plaintext,
-.text {
-  color: #333;  
 }
